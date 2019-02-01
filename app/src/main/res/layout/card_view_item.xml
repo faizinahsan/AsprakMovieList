@@ -9,6 +9,7 @@
     app:cardUseCompatPadding="true">
 
     <RelativeLayout
+        android:background="@color/ColorPrimaryLight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
@@ -18,6 +19,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp" />
         <TextView
+            android:textColor="#ffff"
             android:layout_toRightOf="@id/gambar_movie"
             android:text="@string/judul_movie"
             android:id="@+id/judul_movie"
@@ -25,6 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
+            android:textColor="#ffff"
             android:layout_below="@id/judul_movie"
             android:maxLength="100"
             android:ellipsize="marquee"
